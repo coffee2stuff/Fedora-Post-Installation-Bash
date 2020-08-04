@@ -24,10 +24,10 @@ where you should replace `your-new-hostname` with the hostname you'd like to use
 
 `fedora-install.sh` is a bash script that
 
-* Enables RPM Fusion, both free and non-free repositories
-* Add `flathub` and `snapd` support
-* Installs [Flat Remix](https://drasite.com/flat-remix) theme along with Gnome Tweaks tool
-* Install VS Code and developer tools for C/C++, Node.js, Java and C#
+- Enables RPM Fusion, both free and non-free repositories
+- Add `flathub` and `snapd` support
+- Installs [Flat Remix](https://drasite.com/flat-remix) theme along with Gnome Tweaks tool
+- Install VS Code and developer tools for C/C++, Node.js, Java and C#
 
 You should run the script as `sudo`
 
@@ -52,3 +52,5 @@ As you can see, the first positional argument is your username, and the second o
 `flutter-install.sh` is a bash script that install Flutter from the Snap Store and runs the `flutter` command to initialize download and install. Upon completion, it runs the `flutter doctor` command to display useful information related to installed components / lack of them on your system, so you can resolve possible issues yourself.
 
 This script requires operational `snapd` on your system!
+
+Besides installation of the Flutter SDK, this script also enables web support. At the moment, this is done by switching over to beta channel.
